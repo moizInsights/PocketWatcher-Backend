@@ -9,7 +9,7 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 6000;
 const JWT_SECRET = process.env.JWT_SECRET || 'pocketwatcher_secret_key';
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://sinon6534:pocketwatcher@cluster0.lde7izd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://PocketWatcher:pocketwatcher@cluster0.bpq9riq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
 // Middleware
 app.use(cors());
